@@ -2,10 +2,6 @@ var express = require("express");
 var app = express();
 var converter = require("./converter");
 
-var express = require("express");
-var app = express();
-var converter = require("./converter");
-
 app.get("/rgbToHex", function(req, res) {
 	var red   = parseInt(req.query.red, 10);
 	var green = parseInt(req.query.green, 10);
