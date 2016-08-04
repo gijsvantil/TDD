@@ -4,7 +4,7 @@
   "description": "A repository with a TDD tutorial with Mocha and Node.js.",
   "main": "index.js",
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "",
   "license": "ISC",
